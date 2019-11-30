@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// publishing information
+// -----------------------------------------------------------------------------
+ext.publishing.artifactId =  project.name.toLowerCase()
+ext.publishing.groupId    =  'eu.mihosoft.nfxhtml5.nfxhtml5dist'
+ext.publishing.versionId  =  '2019.11.30.1'
+
+ext.publishing.developerName         = 'Michael Hoffer'
+ext.publishing.developerAlias        = 'miho'
+ext.publishing.developerEmail        = 'info@michaelhoffer.de'
+ext.publishing.inceptionYear         = '2019'
+
+ext.publishing.bintray.repo          = 'NativeFX'
+ext.publishing.bintray.userOrg       = 'miho'
+ext.publishing.bintray.name          = project.name
+
+ext.publishing.desc                  = 'Native HTML5 rendering engine'
+ext.publishing.license               = 'Apache 2.0'
+ext.publishing.licenseUrl            = 'https://github.com/miho/nfx-html5-dist/blob/master/LICENSE'
+ext.publishing.labels                = ['javafx', 'webgl', 'html5', 'qt' 'java', 'vmf', 'vmf-text', 'vrl']
+ext.publishing.websiteUrl            = 'https://github.com/miho/nfx-html5-dist'
+ext.publishing.issueTrackerUrl       = 'https://github.com/miho/nfx-html5-dist/issues'
+ext.publishing.vcsUrl                = 'git@github.com:miho/nfx-html5-dist.git'
+
+ext.publishing.pomName               =  ext.publishing.artifactId

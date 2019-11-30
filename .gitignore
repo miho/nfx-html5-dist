@@ -1,0 +1,19 @@
+/.nb-gradle/
+.idea/
+/build/
+/.gradle/
+/out
+/bin/
+/*.iml
+/.settings/
+/.classpath
+/.project
+
+# native code
+/src/main/resources/eu/mihosoft/nfxhtml5/nfxhtml5dist/linux/
+/src/main/resources/eu/mihosoft/nfxhtml5/nfxhtml5dist/macos/
+/src/main/resources/eu/mihosoft/nfxhtml5/nfxhtml5dist/windows/
+
+# build info
+/src/main/java/eu/mihosoft/nfxhtml5/nfxhtml5dist/BuildInfo.java
+
