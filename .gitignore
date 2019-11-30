@@ -8,6 +8,7 @@
 /.settings/
 /.classpath
 /.project
+/.vscode/
 
 # native code
 /src/main/resources/eu/mihosoft/nfxhtml5/nfxhtml5dist/linux/
